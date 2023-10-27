@@ -1,3 +1,4 @@
 # Codewars
 
-This project contains challenges from across various platforms including Leetcode, Hackerrank, and Codewars that I have completed, along with the logic behind my decisions. This will show my skills i've learned in JS so far.
+This repo contains three different challenges I completed, one each from Leetcode, Hackerrank, and CodeWars, and includes documentation 
+for how each function and the data it processes works.

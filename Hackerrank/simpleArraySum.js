@@ -3,6 +3,7 @@
  * all the values.
  * @param ar array of values operated on
  * @returns sum - final addition of all numbers in array 
+ * Link for Challenge: https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
  */
 const ar = [23, 17, 45, 97, 126];
 console.log(ar);

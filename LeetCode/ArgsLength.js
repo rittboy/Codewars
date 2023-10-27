@@ -1,19 +1,25 @@
 /**
- * @param {...(null|boolean|number|string|Array|Object)} args
- * @return {number}
- *Link for Challenge:  https://leetcode.com/problems/return-length-of-arguments-passed/?envType=study-plan-v2&envId=30-days-of-javascript
+ * @param args - list of arguments passed to function
+ * @return {number} - length of arguments, increments with each item
  */
-
 var argumentsLength = function(...args) {
-	let i = 0;
+	//iterator for list of args
+  let i = 0;
+  //total count returns in function call
+  count = 0;
   while(i < args.length){
+    //with each item in list passed to function, increases the count
+    count++;
+
+    //increases iterator til end of list is reached
     i++;
   }
 
-  return i;
+  return count;
 };
-// let length = argumentsLength(1, 15, "Alpha", 27);
-console.log(length);
+
 /**
  * argumentsLength(1, 2, 3); // 3
  */
+//Test Code for debugging purposes
+console.log(argumentsLength(1,2,3,17,"Alpha"));

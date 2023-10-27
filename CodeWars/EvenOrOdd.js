@@ -1,15 +1,19 @@
-/**Solve for a given integer being even or odd.
- * Will take any given integer, and when divided by 2, if it returns no remainder, will declare the integer as an Even Number, and if 
- * is found to have a remainder, will return it is an odd number.
- *Link for Challenge:  https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/solutions/javascript
+/**
+ * Takes a number, and based upon the remainder given by the modulus operator, returns
+ * if the number is even or odd
+ * @param {*} number variable given to operate on
+ * @returns "odd" or "even" depending upon result of modulus operator
  */
-
-let number = 57;
+const number = 27;
 function evenOrOdd(number){
+    //if the  remainder is nothing, returns even
     if(number % 2 === 0){
         return "Even";
     }else{
+        //if a remainder is returned, returns odd
         return "Odd";
     }
 }
-// console.log("The number " + number + " Is " + evenOrOdd(number));
+
+//test code to check function
+console.log("The number " + number + " Is " + evenOrOdd(number));
