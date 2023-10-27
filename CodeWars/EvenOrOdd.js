@@ -11,4 +11,4 @@ function evenOrOdd(number){
         return "Odd";
     }
 }
-console.log("The number " + number + " Is " + evenOrOdd(number));
+// console.log("The number " + number + " Is " + evenOrOdd(number));

@@ -11,8 +11,8 @@ var argumentsLength = function(...args) {
 
   return i;
 };
-let length = argumentsLength(1, 15, "Alpha", 27);
-console.log(length)
+// let length = argumentsLength(1, 15, "Alpha", 27);
+console.log(length);
 /**
  * argumentsLength(1, 2, 3); // 3
  */
