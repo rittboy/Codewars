@@ -6,5 +6,19 @@
  * to reduce down to 1
  */
 function Rainfall(x){
-
+    var steps = 0;
+    while (x > 1){
+        if (x % 2 === 0){
+            x /= 2;
+        }
+        else if(x % 2 !== 0){
+            x = (x*3) + 1;
+        }
+        steps++;
+    }
+    return steps;
 }
+
+var numSteps = Rainfall(x);
+
+console.log("It took " + numSteps + " steps to reduce " + x + " to zero.");
