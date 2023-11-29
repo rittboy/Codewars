@@ -5,22 +5,22 @@
  * This function exits once x becomes 1, and then returns how many steps it took 
  * to reduce down to 1
  */
-function Rainfall(x){
-    var steps = 0;
-    while (x > 1){
-        if (x % 2 === 0){
-            x /= 2;
+function Rainfall(num){
+    var steps = 1;
+    while (num > 1){
+        if (num % 2 === 0){
+            num /= 2;
         }
-        else if(x % 2 !== 0){
-            x = (x*3) + 1;
+        else if(num % 2 !== 0){
+            num = (num*3) + 1;
         }
         steps++;
     }
     return steps;
 }
-var num = 27;
+var num = 12;
 var numSteps = Rainfall(num);
-console.log("It took " + numSteps + " steps to reduce " + x + " to zero.");
+console.log("It took " + numSteps + " steps to reduce " + num + " to zero.");
 
 
 
