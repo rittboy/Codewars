@@ -19,7 +19,7 @@ function Rainfall(num){
     return steps;
 }
 // var num = 199;
-var numSteps = Rainfall(num);
+// var numSteps = Rainfall(num);
 console.log("It took " + numSteps + " steps to reduce " + num + " to zero.");
 
 
