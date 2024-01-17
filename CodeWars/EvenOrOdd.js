@@ -4,7 +4,7 @@
  * @param {*} number variable given to operate on
  * @returns "odd" or "even" depending upon result of modulus operator
  */
-const number = 27;
+// const number = 27;
 function evenOrOdd(number){
     //if the  remainder is nothing, returns even
     if(number % 2 === 0){
@@ -14,6 +14,7 @@ function evenOrOdd(number){
         return "Odd";
     }
 }
-
+const number = 27;
+const result = evenOrOdd(number);
 //test code to check function
-console.log("The number " + number + " Is " + evenOrOdd(number));
+console.log("The number " + number + " Is " + result);
