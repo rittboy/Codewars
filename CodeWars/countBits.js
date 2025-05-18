@@ -2,6 +2,7 @@
  *converts a number to binary and then counts the ones represented in binary string and returns the total count
  * @param  r - a nubmer to be convertdd to binary
  * @returns - the total number of ones in binary string returned after converting
+ * https://www.codewars.com/kata/526571aae218b8ee490006f4
  */
 var countbits = function (r) {
   let bin = r.toString(2);
