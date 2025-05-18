@@ -1,4 +1,3 @@
 # Codewars
 
-This repo contains three different challenges I completed, one each from Leetcode, Hackerrank, and CodeWars, and includes documentation 
-for how each function and the data it processes works. These functions highlight array manipulation, and looping functionality to solve problems presented.
+This repo contains different challenges completed through Codewars, Leetcode, and Hackerrank, and contains documentation on how the results were achieved, as well as various other scripts I have designed on my own time.
